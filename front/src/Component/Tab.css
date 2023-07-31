@@ -1,0 +1,32 @@
+.tab {
+  width: 100%;
+  display: flex;
+}
+.tabItem {
+  font-size: 14px;
+  display: flex;
+  padding: 12px 18px;
+  align-items: center;
+}
+.tabItemActive {
+  font-weight: 600;
+  color: #1f2133;
+  background-color: #e6f7ff;
+}
+.tabItemOff {
+  color: #e6f7ff;
+  background-color: #313450;
+}
+.tabClose {
+  font-size: 18px;
+  color: #1f2133;
+  margin-left: 1rem;
+}
+
+.backButton{
+  border: none;
+  padding: 6px 24px;
+  border-radius: 5px;
+  color: #1F2133;
+  background-color: #E6F7FF;
+}

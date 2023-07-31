@@ -1,0 +1,39 @@
+.nav {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+.navLogoText {
+  color: #e6f7ff;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+.createPatterButton {
+  background-image: linear-gradient(
+    to right,
+    #1d976c 0%,
+    #93f9b9 51%,
+    #1d976c 100%
+  );
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #656565;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+.createPatterButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
